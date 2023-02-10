@@ -50,7 +50,7 @@ do
   release_group=${release_groups[$((RANDOM%7))]}
 
   # Generate the torrent file name
-  torrent_file_name="$movie_name ($year) [$format] [$release_group]"
+  torrent_file_name="$movie_name $year $format $release_group"
   
   torrent_file_name=${torrent_file_name// /.}
 
